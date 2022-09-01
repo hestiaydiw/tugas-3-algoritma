@@ -32,7 +32,6 @@ int main()
         }
     
         //cek apakah n3 nilai tengah atau bukan
-        // if(n1>n3 && n3>n2 || n2>n3 && n3>n1){
         if(n3<n1 && n2<n3 || n3<n2 && n1<n3){
             cout << "Nilai tengah :" << n3 << "\n";
         }
